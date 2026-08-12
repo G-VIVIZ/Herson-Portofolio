@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Proyek - Sistem Irigasi Berbasis Soil Moisture</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+  <!-- Hubungkan ke file CSS eksternal yang sama -->
+  <link rel="stylesheet" href="../style.css">
+ </head>
+ <body data-template-id="__page-root">
+  <div class="site-shell w-full">
+   
+   <!-- Header Navigasi Sederhana dengan Tombol Kembali -->
+   <header class="nav-wrap">
+    <nav class="nav-inner page-width" aria-label="Navigasi utama">
+     <a href="../index.html "class="brand"> 
+      <span class="brand-mark" aria-hidden="true">&larr;</span> 
+      <span class="canva-text mono font-bold">KEMBALI KE BERANDA</span> 
+     </a>
+     <div class="nav-links">
+      <a href="../index.html#projects" class="canva-link nav-link active">Portfolio Home</a>
+     </div>
+    </nav>
+   </header>
+
+   <main>
+    <section class="section-block" style="padding-top: 140px;">
+     <div class="page-width">
+      
+      <!-- Judul & Kicker Proyek -->
+      <div class="reveal visible">
+       <p class="canva-text section-kicker mono" style="color: var(--teal);">DETAIL PROYEK / 01</p>
+       <h1 class="canva-text section-heading" style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px;">
+        Website penyewaan barang inventaris UK - KBMK Polnes
+       </h1>
+       <div class="project-meta" style="margin-bottom: 30px;">
+        <span class="canva-tag mini-tag">HTML</span>
+        <span class="canva-tag mini-tag">CSS</span>
+        <span class="canva-tag mini-tag">PHP</span>
+        <span class="canva-tag mini-tag">MySQL</span>
+        <span class="canva-tag mini-tag">Database</span>
+        <span class="canva-tag mini-tag">JavaScript</span>
+        <span class="canva-tag mini-tag">Peminjaman</span>
+       </div>
+      </div>
+
+      <!-- Konten Rincian Detail (Grid Layout) -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 40px;" class="detail-grid">
+       
+       <!-- Kolom Kiri: Deskripsi, Fitur, Dashboard, Dokumentasi -->
+       <div style="display: grid; gap: 30px;">
+        
+        <!-- 1. Deskripsi Proyek -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">DESKRIPSI PROYEK</h3>
+         <p class="section-copy" style="margin: 0; line-height: 1.8;">
+            Project ini adalah hasil project untuk kebutuhan skripsi sebagai syarat kelulusan dan di project ini berfokus pada website
+            peminjaman barang inventaris yang dibutuhkan untuk keperluan sekre KBMK Polnes. Dengan menerapkan fitur seperti keranjang belanja, dengan bahasa HTML,
+            CSS, dan dibantu database mysql dan PHP.
+         </p>
+        </div>
+
+        <!-- 2. Fitur Utama -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">FITUR UTAMA</h3>
+         <ul style="color: var(--muted); padding-left: 20px; line-height: 1.8; display: grid; gap: 8px;">
+            <li>Manajemen organisasi kampus Politeknik Negeri Samarinda</li>
+            <li>Manajemen penyewaan barang dengan fitur memilih barang bisa satu atau lebih lewat keranjang penyewaan yang dilakukan oleh ogranisasi kampus lain.</li>
+            <li>Menghitung berapa total harga yang dibayar untuk semua barang yang disewa dengan satu barang per hari.</li>
+          <li>Fitur Pembayaran lewat QRIS.</li>
+          <li>Upload berkas surat organisasi setelah melaukan peminajman.</li>
+          <li>Fitur denda jika terlambat mengembalikan barang sesuai  batas tanggal pengembalian</li>
+          <li>Laporan data peminjaman barang selama sebulan.</li>
+         </ul>
+        </div>
+
+        <!-- 3. Rangkaian -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">PERANCANGAN SISTEM</h3>
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Flowchart</h4>
+       <br><p>Flowchart Penyewaan barang</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/Flowchart penyewaan.jpg" alt="Flowchart sewa" style="width: 100%; height: auto; display: block;" >
+         </div>
+        <br><p>Flowchart pengembalian barang</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/Pengembaliaan.jpg" alt="Flowchart kembali" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">ERD (Entity Relationship Diagram)</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/ERD.png" alt="ERD" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">DFD (Data Flow Diagram)</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/DFD.jpg" alt="Database" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;"> Database</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/Database sidang.png" alt="Database" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Desain Tabel Database</h4>
+       <p>Tabel admin</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/tabel admin.png" alt="User" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel Anggota</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/tabel anggota.png" alt="Anggota" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel Barang</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/tabel barang.png" alt="buku" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel peminjaman</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/tabel peminjaman.png" alt="peminajman" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel pengembalian</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project3/tabel pengembalian.png" alt="pengembalian" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+        </div>
+
+         <!-- 4. Tampilan Website -->
+         <div class="canva-panel about-panel">
+            <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Tampilan Website</h3>
+            <p class="section-copy" style="margin-bottom: 15px;">Berikut adalah Tampilan Website penyewaan barang inventaris UK - KBMK Polnes</p>
+            <br>
+            <p>Login dan Dashboard</p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;" class="doc-grid">
+               <p>Login Anggota<img src="asset_details/Project3/Screenshot 2024-11-01 044944.png" alt="Login anggota" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);"></p>
+               <p>Login Admin<img src="asset_details/Project3/Screenshot 2024-11-01 044837.png" alt="login admin" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);"></p>
+            </div>
+            
+            <br>
+            <p>Halaman dashboard anggota</p>
+            <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+             <img src="asset_details/Project3/Dashboard anggota.png" alt="Menu anggota" style="width: 100%; height: auto; display: block;" >
+             <br><p>Keranjang peminjaman</p>
+             <img src="asset_details/Project3/Keranjang peminjaman barang.png" alt="pinjam barang" style="width: 100%; height: auto; display: block;" >
+             <br><p>Halaman konfirmasi</p>
+             <img src="asset_details/Project3/Konfirmasi peminjaman.png" alt="cetak" style="width: 100%; height: auto; display: block;" >
+            </div>
+
+            <br>
+            <p>Halaman dashboard admin</p>
+            <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+             <img src="asset_details/Project3/dashboard admin.png" alt="Menu admin" style="width: 100%; height: auto; display: block;" >
+             <br><p>Data Barang</p>
+             <img src="asset_details/Project3/data barang.png" alt="barang" style="width: 100%; height: auto; display: block;" >
+             <br><p>Data Peminjaman Barang</p>
+             <img src="asset_details/Project3/data peminjaman.png" alt="pinjam" style="width: 100%; height: auto; display: block;" >
+             <br><p>Data Pengembalian Barang</p>
+             <img src="asset_details/Project3/data pengembalian.png" alt="kembali barang" style="width: 100%; height: auto; display: block;" >
+            </div>
+           </div>
+
+       </div>
+
+       <!-- Kolom Kanan: Teknologi & Job Desk -->
+       <div style="display: grid; gap: 30px; align-content: start;">
+        
+        <!-- Alat / Teknologi -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">ALAT & TEKNOLOGI</h3>
+         <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="canva-tag mini-tag">HTML</span>
+          <span class="canva-tag mini-tag">CSS</span>
+          <span class="canva-tag mini-tag">PHP</span>
+          <span class="canva-tag mini-tag">MySQL</span>
+          <span class="canva-tag mini-tag">JavaScript</span>
+         </div>
+        </div>
+
+        <!-- Job Desk -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">JOB DESK / PERAN</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <li>Membuat desain rancang bangun website dengan alur flowchart, ERD, DFD, FOD</li>
+          <li>Membuat database dengan relasi yang ada pada desain rancang bangun sebelumnya</li>
+          <li>Melakukan pengembangan lewat codingan website dengan menerapkan bahasa HTML dan CSS serta javascript untuk front end</li>
+          <li>Melakukan back end dengan PHP untuk dihubungkan dengan database agar data bisa ada pada website</li>
+          <li>Melakukan tes uji coba lewat percobaan website apakah ada bug dan error yang masih ada pada website</li>
+          <li>Melakukan hosting untuk di publish agar website bisa digunakan secara universal</li>
+          <li>Melakukan juga pengujian lewat tes black box testing untuk menguji apakah website aman digunakan.</li>
+         </ul>
+        </div>
+
+        <!-- Hasil Project -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">Hasil Project</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <p>Website berhasil digunakan tanpa ada hambatan lewat keranjang peminjaman , konfiormasi pembayaran dan penambahan data barang 
+            yang dilakukan oleh admin. Meskipun itu masih ada hal yang kurang lewat desain UI/UX yang masih sederhana. Juga pada hasil skripsi
+            Meskipun sudah selesai revisi masih ada yang perlu ditambahkan fitur dan pengembangan yang masih kurang. Tapi dengan penilaian tersebut maka
+            website masih digunakan oleh pihak sekre UK-KBMK Polnes yang dimana kedepannya dikembangkan lewat UI/UX dan database dan fitur yang masih kurang di website ini.
+          </p>
+        </div>
+
+
+       </div>
+
+      </div>
+
+      <!-- Tombol Kembali ke Portofolio di Paling Bawah -->
+      <div style="margin-top: 60px; text-align: center; border-top: 1px solid var(--line); padding-top: 40px;">
+       <a href="../index.html#projects" class="primary-btn" style="display: inline-flex; background: var(--teal); color: #050507; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold;">
+        <i data-lucide="arrow-left" aria-hidden="true"></i> Kembali ke Beranda / Portofolio
+       </a>
+      </div>
+
+     </div>
+    </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="canva-footer footer">
+    <div class="footer-inner page-width">
+     <p class="canva-text">&copy; 2026 Herson. All Rights Reserved.</p>
+     <a href="#home" class="canva-link back-top"><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </div>
+   </footer>
+  </div>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", () => {
+    lucide.createIcons();
+   });
+  </script>
+ </body>
+</html>

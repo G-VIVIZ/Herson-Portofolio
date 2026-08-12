@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Proyek - Sistem Irigasi Berbasis Soil Moisture</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+  <!-- Hubungkan ke file CSS eksternal yang sama -->
+  <link rel="stylesheet" href="../style.css">
+ </head>
+ <body data-template-id="__page-root">
+  <div class="site-shell w-full">
+   
+   <!-- Header Navigasi Sederhana dengan Tombol Kembali -->
+   <header class="nav-wrap">
+    <nav class="nav-inner page-width" aria-label="Navigasi utama">
+     <a href="../index.html "class="brand"> 
+      <span class="brand-mark" aria-hidden="true">&larr;</span> 
+      <span class="canva-text mono font-bold">KEMBALI KE BERANDA</span> 
+     </a>
+     <div class="nav-links">
+      <a href="../index.html#projects" class="canva-link nav-link active">Portfolio Home</a>
+     </div>
+    </nav>
+   </header>
+
+   <main>
+    <section class="section-block" style="padding-top: 140px;">
+     <div class="page-width">
+      
+      <!-- Judul & Kicker Proyek -->
+      <div class="reveal visible">
+       <p class="canva-text section-kicker mono" style="color: var(--teal);">DETAIL PROYEK / 01</p>
+       <h1 class="canva-text section-heading" style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px;">
+         Website Peminjaman Buku Perpustakaan SMK Negeri 12 Samarinda
+       </h1>
+       <div class="project-meta" style="margin-bottom: 30px;">
+        <span class="canva-tag mini-tag">HTML</span>
+        <span class="canva-tag mini-tag">CSS</span>
+        <span class="canva-tag mini-tag">PHP</span>
+        <span class="canva-tag mini-tag">MySQL</span>
+        <span class="canva-tag mini-tag">Database</span>
+        <span class="canva-tag mini-tag">JavaScript</span>
+        <span class="canva-tag mini-tag">Peminjaman</span>
+       </div>
+      </div>
+
+      <!-- Konten Rincian Detail (Grid Layout) -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 40px;" class="detail-grid">
+       
+       <!-- Kolom Kiri: Deskripsi, Fitur, Dashboard, Dokumentasi -->
+       <div style="display: grid; gap: 30px;">
+        
+        <!-- 1. Deskripsi Proyek -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">DESKRIPSI PROYEK</h3>
+         <p class="section-copy" style="margin: 0; line-height: 1.8;">
+            Project ini adalah project secara berkelompok, dimana kami memilih project website peminajman buku untuk sekolah di SMK Negeri 12 Samarinda
+            yang berlokasi di Jl. Ekonomi No.69, Loa Buah, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur. Tujuan ini agar fasilitas perpustakaan di sekolah
+            menggunakan sistem peminjaman hanya lewat website bukan lewat catatan manual. Dalam pengembangan webiste ini kami menggunakan bahasa CSS, HTML, Javascript, PHP, dan MySQL sebagai penyimpanan database.
+         </p>
+        </div>
+
+        <!-- 2. Fitur Utama -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">FITUR UTAMA</h3>
+         <ul style="color: var(--muted); padding-left: 20px; line-height: 1.8; display: grid; gap: 8px;">
+            <li>Manajemen anggota perpustakaan</li>
+            <li>Manajemen data buku perpustakaan</li>
+            <li>Menghitung berapa anggota perpustakaan, buku yang dipinjam, buku yang dikembalikan, dan total buku yang ada di perpustakaan lewat data di dashboard secara real time.</li>
+          <li>Manajemen dalam peminjaman buku</li>
+          <li>Sistem pengembalian buku</li>
+          <li>Laporan data buku dan transaksi.</li>
+         </ul>
+        </div>
+
+        <!-- 3. Rangkaian -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">PERANCANGAN SISTEM</h3>
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Flowchart</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/Flowchart perpus.png" alt="Flowchart style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">ERD (Entity Relationship Diagram)</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/ERD perpus.png" alt="ERD" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Desain Database</h4>
+       
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/Desain database.png" alt="Database" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <h4 class="mono font-light" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Desain Tabel Database</h4>
+       <p>Tabel User</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/tabel user.png" alt="User" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel Anggota</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/Tabel anggota.png" alt="Anggota" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel Buku</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/tabel buku.png" alt="buku" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Tabel transaksi</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project2/tabel peminjaman.png" alt="transaksi" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+        </div>
+
+         <!-- 4. Tampilan Website -->
+         <div class="canva-panel about-panel">
+            <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Tampilan Website</h3>
+            <p class="section-copy" style="margin-bottom: 15px;">Berikut adalah Tampilan Website Peminjaman Buku Perpustakaan SMK Negeri 12 Samarinda</p>
+            <br>
+            <p>Login dan Dashboard</p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;" class="doc-grid">
+               <img src="asset_details/Project2/Login.png" alt="Login" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+               <img src="asset_details/Project2/Dashboard.png" alt="dashboard" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            </div>
+            <br>
+            <p>Halaman menu dan cetak</p>
+            <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+             <img src="asset_details/Project2/Anggota.png" alt="Menu anggota" style="width: 100%; height: auto; display: block;" >
+             <img src="asset_details/Project2/Buku.png" alt="menu buku" style="width: 100%; height: auto; display: block;" >
+             <img src="asset_details/Project2/Peminjaman.png" alt="menu transaksi" style="width: 100%; height: auto; display: block;" >
+             <br><p>Tambah data</p>
+             <img src="asset_details/Project2/Tambah data.png" alt="Tambah" style="width: 100%; height: auto; display: block;" >
+             <br><p>Cetak Laporan</p>
+             <img src="asset_details/Project2/Cetak laporan.png" alt="cetak" style="width: 100%; height: auto; display: block;" >
+            </div>
+           </div>
+
+       </div>
+
+       <!-- Kolom Kanan: Teknologi & Job Desk -->
+       <div style="display: grid; gap: 30px; align-content: start;">
+        
+        <!-- Alat / Teknologi -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">ALAT & TEKNOLOGI</h3>
+         <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="canva-tag mini-tag">HTML</span>
+          <span class="canva-tag mini-tag">CSS</span>
+          <span class="canva-tag mini-tag">PHP</span>
+          <span class="canva-tag mini-tag">MySQL</span>
+          <span class="canva-tag mini-tag">JavaScript</span>
+         </div>
+        </div>
+
+        <!-- Job Desk -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">JOB DESK / PERAN</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <li>Membuat program back end dengan menggunakan PHP</li>
+          <li>Membuat pembuatan database untuk menghubungkan dengan program pada front end</li>
+          <li>Melakukan perbaikan error pada program dan bug yang masih ada di website</li>
+          <li>Melakuakan pengujian website</li>
+         </ul>
+        </div>
+
+        <!-- Hasil Project -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">Hasil Project</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <p>Website perpustakaan berhasil dibuat dengan fitur pengelolaan data buku, data anggota, transaksi peminjaman, dan pengembalian buku. 
+            Sistem menggunakan database MySQL untuk menyimpan data perpustakaan dan menampilkan informasi melalui dashboard admin berbasis web.</p>
+        </div>
+
+
+       </div>
+
+      </div>
+
+      <!-- Tombol Kembali ke Portofolio di Paling Bawah -->
+      <div style="margin-top: 60px; text-align: center; border-top: 1px solid var(--line); padding-top: 40px;">
+       <a href="../index.html#projects" class="primary-btn" style="display: inline-flex; background: var(--teal); color: #050507; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold;">
+        <i data-lucide="arrow-left" aria-hidden="true"></i> Kembali ke Beranda / Portofolio
+       </a>
+      </div>
+
+     </div>
+    </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="canva-footer footer">
+    <div class="footer-inner page-width">
+     <p class="canva-text">&copy; 2026 Herson. All Rights Reserved.</p>
+     <a href="#home" class="canva-link back-top"><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </div>
+   </footer>
+  </div>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", () => {
+    lucide.createIcons();
+   });
+  </script>
+ </body>
+</html>

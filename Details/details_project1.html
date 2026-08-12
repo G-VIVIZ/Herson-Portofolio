@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Proyek - Sistem Irigasi Berbasis Soil Moisture</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+  <!-- Hubungkan ke file CSS eksternal yang sama -->
+  <link rel="stylesheet" href="../style.css">
+ </head>
+ <body data-template-id="__page-root">
+  <div class="site-shell w-full">
+   
+   <!-- Header Navigasi Sederhana dengan Tombol Kembali -->
+   <header class="nav-wrap">
+    <nav class="nav-inner page-width" aria-label="Navigasi utama">
+     <a href="../index.html "class="brand"> 
+      <span class="brand-mark" aria-hidden="true">&larr;</span> 
+      <span class="canva-text mono font-bold">KEMBALI KE BERANDA</span> 
+     </a>
+     <div class="nav-links">
+      <a href="../index.html#projects" class="canva-link nav-link active">Portfolio Home</a>
+     </div>
+    </nav>
+   </header>
+
+   <main>
+    <section class="section-block" style="padding-top: 140px;">
+     <div class="page-width">
+      
+      <!-- Judul & Kicker Proyek -->
+      <div class="reveal visible">
+       <p class="canva-text section-kicker mono" style="color: var(--teal);">DETAIL PROYEK / 01</p>
+       <h1 class="canva-text section-heading" style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px;">
+        Sistem Irigasi Berbasis Soil Moisture
+       </h1>
+       <div class="project-meta" style="margin-bottom: 30px;">
+        <span class="canva-tag mini-tag">IoT</span>
+        <span class="canva-tag mini-tag">Sensor</span>
+        <span class="canva-tag mini-tag">Arduino / ESP32</span>
+        <span class="canva-tag mini-tag">Soil Moisture</span>
+        <span class="canva-tag mini-tag">LCD I2C</span>
+       </div>
+      </div>
+
+      <!-- Konten Rincian Detail (Grid Layout) -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 40px;" class="detail-grid">
+       
+       <!-- Kolom Kiri: Deskripsi, Fitur, Dashboard, Dokumentasi -->
+       <div style="display: grid; gap: 30px;">
+        
+        <!-- 1. Deskripsi Proyek -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">DESKRIPSI PROYEK</h3>
+         <p class="section-copy" style="margin: 0; line-height: 1.8;">
+            Sistem irigasi yang menggunakan sensor soil moisture untuk mengukur kelembapan tanah dan
+            mendukung dalam proses penyiraman tanaman secara otomatis hanya menggunakan Internet of Things pada alat tersebut.
+         </p>
+        </div>
+
+        <!-- 2. Fitur Utama -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">FITUR UTAMA</h3>
+         <ul style="color: var(--muted); padding-left: 20px; line-height: 1.8; display: grid; gap: 8px;">
+          <li>Monitoring tingkat kelembapan tanah secara <em>real-time</em>.</li>
+          <li>Memunculkan notifikasi lewat speaker atau suara terkait kondisi tanah</li>
+          <li>Memabaca nilai sensor pada LCD Display Arduino</li>
+          <li>Menyiramkan tanaman secara otomatis saat tanah dalam keadaan kering dan saat dalam kondisi tanah yang basah dan lembab, maka tanaman tidak di siram secara otomatis.</li>
+         </ul>
+        </div>
+
+        <!-- 3. Rangkaian -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">GAMBAR RANGKAIAN</h3>
+         <p class="section-copy" style="margin-bottom: 15px;">Berikut adalah cuplikan antarmuka dashboard sistem monitoring:</p>
+         <br>
+         <p>Skesta Rangkaian</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project1/Project1_Rangkaian.png" alt="Dashboard Tampilan" style="width: 100%; height: auto; display: block;" >
+         </div>
+         <br>
+         <p>Gambar Rangkaian</p>
+         <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+          <img src="asset_details/Project1/Rangakaian_proect1.png" alt="Dashboard Tampilan" style="width: 100%; height: auto; display: block;" >
+         </div>
+        </div>
+
+         <!-- 4. Prototype dan Foto Alat -->
+         <div class="canva-panel about-panel">
+            <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem;">Foto Alat</h3>
+            <p class="section-copy" style="margin-bottom: 15px;">Berikut adalah Prototype alat sensor penyiraman tanaman otomatis.</p>
+            <br>
+            <p>Bagian dalam kotak</p>
+            <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+             <img src="asset_details/Project1/Protyppe_detail1.png" alt="Dashboard Tampilan" style="width: 100%; height: auto; display: block;" >
+            </div>
+            <br>
+            <p>Bagian Luar</p>
+            <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #15151a;">
+             <img src="asset_details/Project1/Alat produk.jpg.png" alt="Dashboard Tampilan" style="width: 100%; height: auto; display: block;" >
+            </div>
+           </div>
+
+        <!-- 5. Dokumentasi & Pengujian -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--teal); margin-bottom: 15px; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+           <i data-lucide="camera" style="width: 22px; height: 22px;"></i> Dokumentasi Project
+         </h3>
+         <p class="section-copy" style="margin-bottom: 20px;">Dokumentasi proses pembuatan dan implementasi sistem:</p>
+         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;" class="doc-grid">
+            <img src="asset_details/Project1/IMG20221119132057.jpg" alt="Dokumentasi 1" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221119143326.jpg" alt="Dokumentasi 2" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221120100305_01.jpg" alt="Dokumentasi 3" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221119164203_01.jpg" alt="Dokumentasi 4" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221121161508.jpg" alt="Dokumentasi 5" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221121161544_01.jpg" alt="Dokumentasi 6" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221121155838_01.jpg" alt="Dokumentasi 7" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221121155841_01.jpg" alt="Dokumentasi 8" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+            <img src="asset_details/Project1/IMG20221119144214_01.jpg" alt="Dokumentasi 9" style="width: 100%; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--line);">
+         </div>
+        </div>
+
+       </div>
+
+       <!-- Kolom Kanan: Teknologi & Job Desk -->
+       <div style="display: grid; gap: 30px; align-content: start;">
+        
+        <!-- Alat / Teknologi -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">ALAT & TEKNOLOGI</h3>
+         <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="canva-tag mini-tag">Arduino Uno</span>
+          <span class="canva-tag mini-tag">Soil Moisture Sensor</span>
+          <span class="canva-tag mini-tag">Relay Module</span>
+          <span class="canva-tag mini-tag">Internet of Things</span>
+  
+         </div>
+        </div>
+
+        <!-- Job Desk -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">JOB DESK / PERAN</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <li>Pemrograman coding aruduino mikrokontroler untuk pengiriman data sensor.</li>
+          <li>Perakitan alat seperti penyusunan kabel dan produk alat</li>
+          <li>Pengujian integrasi sistem secara menyeluruh.</li>
+         </ul>
+        </div>
+
+        <!-- Hasil Project -->
+        <div class="canva-panel about-panel">
+         <h3 class="mono font-bold" style="color: var(--gold); margin-bottom: 15px; font-size: 1.1rem;">Hasil Project</h3>
+         <ul style="color: var(--muted); padding-left: 18px; line-height: 1.7; font-size: 0.95rem; display: grid; gap: 6px;">
+          <li>Data sensor berhasil terkirim ke serial monitor untuk melihat kondisi tanah.</li>
+          <li>Data juga berhasil terbaca di LDC I2C Arduino untuk melihat data nilai dan kondisi tanah</li>
+          <li>Lampu berfungsi dan menyala sesuai dengan kondisi tanah dengan melihat nilai ouputnya.</li>
+          <li>Air terpompa dengan baik dan menghasilkan siraman tanaman secara otomatis ketika kondisi tanah kering dengan melihat notifikasi pada lampu merah yang menyala.</li>
+         </ul>
+        </div>
+
+
+       </div>
+
+      </div>
+
+      <!-- Tombol Kembali ke Portofolio di Paling Bawah -->
+      <div style="margin-top: 60px; text-align: center; border-top: 1px solid var(--line); padding-top: 40px;">
+       <a href="../index.html#projects" class="primary-btn" style="display: inline-flex; background: var(--teal); color: #050507; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold;">
+        <i data-lucide="arrow-left" aria-hidden="true"></i> Kembali ke Beranda / Portofolio
+       </a>
+      </div>
+
+     </div>
+    </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="canva-footer footer">
+    <div class="footer-inner page-width">
+     <p class="canva-text">&copy; 2026 Herson. All Rights Reserved.</p>
+     <a href="#home" class="canva-link back-top"><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </div>
+   </footer>
+  </div>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", () => {
+    lucide.createIcons();
+   });
+  </script>
+ </body>
+</html>
